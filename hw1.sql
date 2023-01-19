@@ -147,3 +147,15 @@ SELECT movies.title, movies.year_released, movies.rating, studios.name
 FROM movies
 INNER JOIN studios ON studios.id = movies.studio_id
 ;
+
+
+.print ""
+.print "Top Cast"
+.print "========"
+.print ""
+
+SELECT movies.title, actors.name, characters.name 
+FROM movies
+INNER JOIN characters ON movies.id=characters.movie_id
+INNER JOIN actors ON actors.id=characters.actor_id
+;
