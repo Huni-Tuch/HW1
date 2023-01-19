@@ -135,3 +135,15 @@ INSERT INTO characters (
         "Anne Hathaway"         
         )
     ;
+
+-- Now, let's do the print outs
+
+.print ""
+.print "Movies"
+.print "======"
+.print ""
+
+SELECT movies.title, movies.year_released, movies.rating, studios.name 
+FROM movies
+INNER JOIN studios ON studios.id = movies.studio_id
+;
