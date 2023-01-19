@@ -112,5 +112,26 @@ INSERT INTO characters (
     INSERT INTO actors (
         name
     ) VALUES (
-        ""
-    )
+        "Christian Bale"
+        ),(
+        "Michael Caine"
+        ),(
+        "Liam Neeson"
+        ),(
+        "Katie Holmes"
+        ),(
+        "Gary Oldman"
+        ),(
+        "Heath Ledger"
+        ),(
+        "Aaron Eckhart"
+        ),(
+        "Maggie Gyllenhaal"
+        ),(
+        "Tom Hardy"
+        ),(
+        "Joseph Gordon-Levitt"
+        ),(
+        "Anne Hathaway"         
+        )
+    ;
