@@ -34,3 +34,37 @@ CREATE TABLE actors (
   name TEXT
 );
 
+-- Now let us add the data
+
+-- Studios
+
+INSERT INTO studios (
+    name
+) VALUES (
+    "Warner Bros."
+)
+;
+-- Movies
+
+INSERT INTO movies (
+    title,
+    year_released,
+    rating,
+    studio_id
+) VALUES 
+    ("Batman Begins",
+    2005,
+    "PG-13",
+    1
+    ),(
+    "The Dark Knight",
+    2008,
+    "PG-13",
+    1
+    ),(
+    "The Dark Knight Rises",
+    2012,
+    "PG-13",
+    1    
+    )
+;
