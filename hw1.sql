@@ -136,6 +136,11 @@ INSERT INTO characters (
         )
     ;
 
+-- Some format never hurts
+
+.mode column
+.headers off
+
 -- Now, let's do the print outs
 
 .print ""
